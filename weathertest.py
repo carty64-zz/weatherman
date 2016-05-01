@@ -3,7 +3,7 @@ import json
 import time
 # -*- coding: UTF-8 -*-
 
-response = urllib.urlopen ('https://api.forecast.io/forecast/API_KEY').read()
+response = urllib.urlopen ('https://api.forecast.io/forecast/API_KEY/37.7782,-122.4122').read()
 json = json.loads(response)
 
 #file = open('weatherjson.json', 'r')
